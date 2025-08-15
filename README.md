@@ -49,9 +49,8 @@ npm install
 ```
 ## Screenshot
 
-!![alt text](<screenshort and video/Dashboard.png>)
+![alt text](<screenshort and video/Dashboard.png>)
 
+video
+[Watch the dashboard demo](screenshort%20and%20video/dashboard.mp4)
 
-## Demo Video
-
-![Dashboard demo](screenshort%20and%20video/dashboard.gif)
