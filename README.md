@@ -54,4 +54,4 @@ npm install
 
 ## Demo Video
 
-<video controls src="screenshort and video/dashboard.mp4" title="Title">video</video>
+![Dashboard demo](screenshort%20and%20video/dashboard.gif)
