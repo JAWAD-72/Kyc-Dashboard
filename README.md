@@ -51,6 +51,7 @@ npm install
 
 ![alt text](<screenshort and video/Dashboard.png>)
 
-video
+## video
 [Watch the dashboard demo](screenshort%20and%20video/dashboard.mp4)
 
+Sorry the video is not showing here but you can dowmload the video by clicking on the link and the error is from github 
