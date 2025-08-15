@@ -47,11 +47,10 @@ Install all dependencies with:
 ```bash
 npm install
 ```
-
 ## Screenshot
 
-![Dashboard Screenshot](./screenshort and video/Dashboard.png)
+!![alt text](<screenshort and video/Dashboard.png>)
+
 
 ## Demo Video
-
-▶️ **Watch the demo:** [dashboard.mp4](./screenshort and video/dashboard.mp4)
+<video controls src="screenshort and video/dashboard.mp4" title="Title">video</video>
