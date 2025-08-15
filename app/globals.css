@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+/* Card look to match the screenshot */
+.card {
+  @apply bg-white dark:bg-slate-900 rounded-2xl border border-gray-200
+         dark:border-slate-800 shadow-[0_6px_26px_rgba(0,0,0,0.06)];
+}
+
+/* Inputs + pills */
+.input { @apply w-full rounded-xl border border-gray-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500; }
+.pill  { @apply inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-sm border border-gray-300 dark:border-slate-700 bg-white dark:bg-slate-900; }
+.pill-active { @apply bg-blue-600 text-white border-transparent; }
+
+/* Button-like tab used across the UI */
+.btn-tab { @apply px-3 py-1.5 rounded-full text-sm border border-gray-300 dark:border-slate-700 bg-white dark:bg-slate-900; }
+.btn-tab-active { @apply bg-blue-600 text-white border-transparent; }
+
+/* Small badge used for % change */
+.badge-up   { @apply text-emerald-600 bg-emerald-50 border border-emerald-200 dark:bg-emerald-950/30 dark:text-emerald-300 dark:border-emerald-900 rounded-full px-2 py-1 text-xs inline-flex items-center; }
+.badge-down { @apply text-rose-600 bg-rose-50 border border-rose-200 dark:bg-rose-950/30 dark:text-rose-300 dark:border-rose-900 rounded-full px-2 py-1 text-xs inline-flex items-center; }
+
+/* Progress bars (thin + rounded) */
+.progress { @apply h-2 rounded-full bg-gray-200 dark:bg-slate-800 overflow-hidden; }
+.progress > div { @apply h-2 rounded-full bg-blue-600; }
+
+/* Skeletons */
+.skeleton { @apply animate-pulse rounded-xl bg-gray-200 dark:bg-slate-800; }
+
+/* Hide scrollbar on the sidebar on small screens */
+.hide-scrollbar { scrollbar-width: none; }
+.hide-scrollbar::-webkit-scrollbar { display: none; }

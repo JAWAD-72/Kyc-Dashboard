@@ -1,0 +1,44 @@
+{
+  "totals": {
+    "totalKYCs": 3456,
+    "newKYC": { "count": 3000, "change": 0.12 },
+    "modifiedKYC": { "count": 456, "change": -0.10 }
+  },
+  "bar": [
+    { "label": "Individual", "today": 330, "yesterday": 250 },
+    { "label": "Non Individual", "today": 240, "yesterday": 180 }
+  ],
+  "status": {
+    "individual": { "initiated": 234, "underProcess": 45, "registered": 350, "validated": 654, "hold": 269, "docsPending": 100 },
+    "nonIndividual": { "initiated": 180, "underProcess": 30, "registered": 200, "validated": 300, "hold": 120, "docsPending": 70 }
+  },
+  "categories": {
+    "individual": { "ri": 0.92, "nri": 0.45 },
+    "nonIndividual": { "ri": 0.82, "nri": 0.32 }
+  },
+  "circular": {
+    "solicited": {
+      "total": 3456,
+      "rings": [
+        { "label": "No Of PANs Solicited", "value": 85, "color": "#0ea5e9" },
+        { "label": "Received", "value": 65, "color": "#2563eb" },
+        { "label": "Consumed", "value": 48, "color": "#14b8a6" },
+        { "label": "Pending", "value": 35, "color": "#f43f5e" }
+      ]
+    },
+    "unsolicited": {
+      "total": 1380,
+      "rings": [
+        { "label": "No Of PANs Solicited", "value": 60, "color": "#0ea5e9" },
+        { "label": "Received", "value": 40, "color": "#2563eb" },
+        { "label": "Consumed", "value": 30, "color": "#14b8a6" },
+        { "label": "Pending", "value": 50, "color": "#f43f5e" }
+      ]
+    }
+  },
+  "panStats": {
+    "solicited": { "total": 956, "withImage": 256, "withoutImage": 700, "kfin": 400, "kra": 250 },
+    "dataReceived": { "total": 320, "withImage": 100, "withoutImage": 220, "kfin": 300, "kra": 100 }
+  },
+  "lastUpdated": "2025-02-12"
+}
