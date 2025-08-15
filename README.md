@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📊 KYC Dashboard
 
-## Getting Started
+A responsive and interactive web-based dashboard to visualize **KYC (Know Your Customer)** statistics.  
+It supports filtering by **date range** (Today, This Month, Custom), **user type** (Individual, Non-Individual), and allows switching between **Solicited** and **Unsolicited** views.
 
-First, run the development server:
+Built with **Next.js**, **React**, and **Tailwind CSS**, the dashboard includes various charts and metrics to provide a clear overview of KYC data.
+
+---
+
+## ✨ Features
+
+- 📅 **Date Range Filters** — Today, This Month, or Custom date selection.
+- 👥 **User Type Filters** — Switch between Individual and Non-Individual.
+- 📊 **Bar Charts** — Compare today's vs yesterday's data.
+- 🌀 **Concentric Ring Charts** — Visualize Solicited vs Unsolicited data.
+- 📂 **Category Breakdown** — Progress bars for RI/NRI categories.
+- 📈 **KYC Status Cards** — Quick glance at different KYC states.
+- 📱 **Responsive Design** — Works on desktop and mobile screens.
+
+---
+
+## 🖥 Prerequisites
+
+Before running this project, make sure you have:
+
+- **Node.js** (v16 or later) → [Download Here](https://nodejs.org/)
+- **npm** (comes with Node.js) or **yarn** as a package manager
+- **Git** installed → [Download Here](https://git-scm.com/)
+
+---
+
+## 📦 Dependencies
+
+This project uses:
+
+- **next** — React framework
+- **react** — Core React library
+- **react-dom** — React DOM bindings
+- **tailwindcss** — Utility-first CSS framework
+- **autoprefixer** — CSS vendor prefixing
+- **postcss** — CSS processing
+- **recharts** — Charting library
+- **react-loading-skeleton** — Loading placeholders
+
+Install all dependencies with:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
